@@ -16,7 +16,7 @@ h1, h2, h3 {
 
 #container {
     background-color: #61BF5E;
-    width: 65;
+    width: 65px;
     margin: 20px auto;
     border-radius: 10px;
     border: 4px dashed white;
@@ -41,7 +41,7 @@ nav li a {
     display: block;
     background-color: #FCCB40;
     width: 200px;
-    height: 50;
+    height: 50px;
     font-size: 1em;
     color: #075279;
     text-decoration: none;
