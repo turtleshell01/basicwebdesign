@@ -40,13 +40,13 @@ nav li a {
     display: block;
     background-color: #FCCB40;
     width: 200px;
-    height: 50px;
+    height: 20px;
     font-size: 1em;
     color: #075279;
     text-decoration: none;
     border: 2px dotted black;
     border-radius: 15px;
-    margin: 0 10px;
+    margin: 10px auto;
 }
 
 nav li a:hover {
@@ -104,11 +104,10 @@ footer {
     display: block;
     background-color: #317D79;
     width: 60px;
-    height: 35px;
+    height: auto;
     color: white;
     margin: auto;
-    margin-top: 10px;
-    padding: 10px;
+    padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     border: 2px solid white;
