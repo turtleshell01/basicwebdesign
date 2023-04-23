@@ -1,0 +1,252 @@
+body {
+    background-color:#69468C;
+    text-align: center;
+}
+
+img {
+   display: block;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: 'Bruno Ace', cursive;
+    color:#D0E5F2;
+    -webkit-text-stroke: .5px black;
+}
+
+h1 {
+    text-decoration:overline;
+    text-decoration-color: #D0E5F2;
+}
+
+h2, h3 {
+    text-decoration: underline;
+}
+
+#container {
+background-color: #8A66D9;
+border: 4px dotted #100831;
+margin: 20px auto;
+border-radius: 10px;
+}
+
+p {
+font-family: 'Pathway Extreme', sans-serif;
+color:#253336;
+}
+
+nav {
+    background-color: #B3AAED;
+padding: 10px 0;
+text-align: center;
+font-family: 'PT Sans', sans-serif;
+border-radius: 10px;
+margin: 20px 20px 15px 15px;
+}
+
+nav ul {
+    padding: 10px;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    height: 20px;
+    background-color: #519DA6;
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+    width: 200px;
+    border: 2px double black;
+    border-radius: 15px;
+    margin: 10px 10px;
+}
+
+nav li a:hover {
+    background-color: gainsboro;
+    color: #011826;
+    border-color: white;
+}
+
+main {
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.col {
+    padding: 10px;
+    border-top: 2px solid;
+    font-family: 'PT Sans', sans-serif;
+    margin: auto;
+}
+
+section, aside {
+    padding: 20px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+aside {
+    margin: 10px;
+}
+
+footer {
+    background-color: #D0E5F2;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0 0 10px 10px;
+    font-family: 'Pathway Extreme', sans-serif;
+    color:#253336;
+}
+
+.button {
+    display: block;
+    background-color: #317D79;
+    width: 60px;
+    height: auto;
+    color: #253336;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px dotted white;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    border: 2px dotted #226C5D;
+}
+
+table {
+    border: double #07141C;
+
+}
+
+tr, te {
+    border: 4px solid black;
+}
+
+td, tr {
+    border: 2px solid blue;
+    
+}
+
+table {
+    margin: auto;
+}
+
+section img {
+    width: 80%;
+}
+
+header img {
+    width: 60%
+}
+
+
+.col img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;  
+        border: 0;  
+    }
+
+    nav li a {
+        width: 200px;
+        margin: 10px 10px;
+        border-radius:  10px;
+        border: 2px double black;
+        padding: 10px;
+    }
+
+    main {
+        display: flex;
+    }
+
+    section, aside {
+        padding: 20px 20px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    aside {
+        margin: 10px;
+        font-family: 'Pathway Extreme', sans-serif;
+        color: #253336;
+    }
+
+    section {
+        width: 70%;
+    }
+    aside {
+        width: 30%;
+    }
+
+    .col img {
+       width: 100%;
+    }
+
+    .button {
+margin-left: auto;
+margin-right: auto;
+    }
+
+    .col {
+       margin: auto;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+
+    main {
+        display: flex;
+    }
+    nav li a {
+        background-color: #D0E5F2;
+        border: 2px double black;
+        margin: 10px 10px;
+    }
+    
+    #lower_area {
+        display: flex;
+    }
+
+    .col {
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+
+    .single_page {
+        width: 100%;
+    }
+    
+    nav li {
+        display: inline-block;
+    }
+   .col {
+margin: auto;
+   } 
+
+}
